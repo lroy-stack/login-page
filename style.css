@@ -1,0 +1,74 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);  /* esta línea añade el cuadro negro con una opacidad del 10% */
+    padding: 20px;
+  }
+
+  body {
+    background-image: url('/Users/l.r0y/Desktop/Login_page/meta.jpeg');
+    background-size: cover;
+    display: flex;  /* esta línea permite que los elementos hijos se alineen en el eje vertical */
+    align-items: center;  /* esta línea alinea los elementos hijos en el centro en el eje vertical */
+    height: 100vh;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 18px;
+    transition: transform 0.3s ease-out;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }  
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: rgba(0, 106, 255, 0.5);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    }
