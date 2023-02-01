@@ -7,7 +7,7 @@
   }
 
   body {
-    background-image: url("https://github.com/lroy-stack/login-page/blob/main/meta.jpeg");
+    background-image: url("meta.jpeg");
     background-size: cover;
     display: flex;  /* esta línea permite que los elementos hijos se alineen en el eje vertical */
     align-items: center;  /* esta línea alinea los elementos hijos en el centro en el eje vertical */
